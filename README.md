@@ -1,4 +1,4 @@
-# Computational Musicology Mikayla van den Berg
+# Computational Musicology Portfolio - Mikayla van den Berg
 
 ## Cepstrogram
 
