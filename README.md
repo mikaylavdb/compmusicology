@@ -2,9 +2,6 @@
 
 ## Cepstrogram
 
-*Cepstrogram for Beethoven's
-Moonlight Sonata, 3rd movement. Performance by Brendel.*
-
 ![](cepstrogram_moonlight_III_brendel.png)
 
 ## Self-Similarity Matrices
