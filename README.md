@@ -50,8 +50,15 @@ Performance by Brendel. Normalisation: Euclidean. Distance: cosine.*
 As mentioned before, the only instrument in the piece is a piano. That is why the SSM based on pitch
 looks unvarying (apart from the dark blue diagonal). There are, however, some yellow lines visible.
 
-The SSM based on pitch looks much different. In comparison to the SSM based on timbre, there is a lot of variety in this one. This piece is in c♯-minor and in sonata form, which means that the exposition get's repeated. This happens at around a 100 seconds and a (faint) blue diagonal line is visible at this point in the SSM. The entirety of the exposition is visible as a block-like structure around 215 seconds (with a yellow outline). Here the second theme sounds in f♯-minor, which is different from the exposition where it was in g♯-minor.
+The SSM based on pitch looks much different. In comparison to the SSM based on timbre, there is a lot of variety in this one. 
+This piece is in c♯-minor and in sonata form, which means that the exposition get's repeated. 
+This happens at around a 100 seconds and a (faint) blue diagonal line is visible at this point in the SSM. 
+The entirety of the exposition is visible as a block-like structure around 215 seconds (with a yellow outline). 
+Here the second theme sounds in f♯-minor, which is different from the exposition where it was in g♯-minor.
 
-There is not a block-like structure visible for the entirety of the development, which ends at around 265 seconds. At this point the recapitulation starts with the first subject remaining unaltered. The second subject is now in the tonic (instead of g♯-minor as in the exposition).
+There is not a block-like structure visible for the entirety of the development, which ends at around 265 seconds. 
+At this point the recapitulation starts with the first subject remaining unaltered. The second subject is now in the tonic (instead of g♯-minor as in the exposition).
 
-The overall SSM has a lot of block-like structures, but these are not easy to distinguish from each other and they cannot easily be linked to what is audible in the audio. The reason for this, is that piano sonatas in sonata form are build on themes and motives that get repeated but could also get slightly altered. Thus, there is a lot of homogeneity.
+The overall SSM has a lot of block-like structures, but these are not easy to distinguish from each other and they cannot easily be linked to what is audible in the audio. 
+The reason for this, is that piano sonatas in sonata form are build on themes and motives that get repeated but could also get slightly altered. 
+Thus, there is a lot of homogeneity.

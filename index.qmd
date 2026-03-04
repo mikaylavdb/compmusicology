@@ -1,0 +1,17 @@
+---
+title: "Computational Musicology Portfolio"
+author: "Mikayla van den Berg"
+format: dashboard
+orientation: columns
+editor: visual
+---
+#  Welcome
+Test
+
+## Column {width=40%}
+Hoi
+
+### Row {height=20%}
+Rij
+
+---
