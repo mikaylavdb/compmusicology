@@ -6,9 +6,12 @@ orientation: columns
 editor: visual
 ---
 #  Welcome
+Hoi
 
 ## Column {width=40%}
 Column
+
+![](cepstrogram_moonlight_III_brendel.png)
 
 ### Row {height=20%}
 Rij
