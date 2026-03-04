@@ -6,10 +6,9 @@ orientation: columns
 editor: visual
 ---
 #  Welcome
-Test
 
 ## Column {width=40%}
-Hoi
+Column
 
 ### Row {height=20%}
 Rij
