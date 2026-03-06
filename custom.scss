@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+
+/* Bootstrap variable overrides */
+$primary: #800020;
+$font-family-sans-serif: "Times New Roman", Times, serif;
+
+
+/*-- scss:rules --*/
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card {
+  border-radius: 10px;
+}
