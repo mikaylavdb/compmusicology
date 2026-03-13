@@ -16,7 +16,20 @@ Welcome to my online portfolio for Computational Musicology. I have compiled a c
 
 ## Row {width="40%"}
 
-**Recordings**<br> • Brendel: 60s (?)<br> • Barenboim: 80s<br> • Buchbinder: 80s<br> • Lortie: 90s<br> • Kempff: 90s<br> • Goode: 90s<br> • Kovacevich: 2000s (?)<br> • Lewis: 2000s<br> • Osborne: 2010s<br> • Levit: 2010s<br> • Say: 2010s (release march 2020)<br> • Korevaar: 2020s<br>
+**Recordings**
+
+• Brendel: 60s (?)<br> 
+• Barenboim: 80s<br> 
+• Buchbinder: 80s<br> 
+• Lortie: 90s<br> 
+• Kempff: 90s<br> 
+• Goode: 90s<br> 
+• Kovacevich: 2000s (?)<br> 
+• Lewis: 2000s<br> 
+• Osborne: 2010s<br> 
+• Levit: 2010s<br> 
+• Say: 2010s (release march 2020)<br> 
+• Korevaar: 2020s<br>
 
 # Graphs
 
@@ -24,7 +37,8 @@ Welcome to my online portfolio for Computational Musicology. I have compiled a c
 
 ## Row {width="40%"}
 
-Spotify provides features of tracks that can be analysed. For example, tracks can be described by 'energy', 'happiness' and 'acousticness'. In the plot on the left, the various recordings by the pianists are plotted by loudness and energy.
+Spotify provides features of tracks that can be analysed. For example, tracks can be described by 'energy', 'happiness' and 'acousticness'. In the plot on the left, the various recordings by the pianists are plotted by loudness and energy.<br> 
+Intepration will follow
 
 # Chromagram
 
@@ -48,9 +62,11 @@ Chromagrams measure pitch energy, not tonal function, so the dominant can easily
 
 # Key- and chordagrams
 
-![](chordagram_moonlight_III_brendel.png) *Chordagram of Beethoven's Moonlight Sonata (No. 14), 3rd movement. Perfomance by Brendel. Normalisation: Chebyshev*
+![](chordagram_moonlight_III_brendel.png) 
+*Chordagram of Beethoven's Moonlight Sonata (No. 14), 3rd movement. Perfomance by Brendel. Normalisation: Chebyshev*
 
-![](keygram_moonlight_III_brendel.png) *Keygram of Beethoven's Moonlight Sonata (No. 14), 3rd movement. Perfomance by Brendel. Normalisation: Chebyshev*
+![](keygram_moonlight_III_brendel.png) 
+*Keygram of Beethoven's Moonlight Sonata (No. 14), 3rd movement. Perfomance by Brendel. Normalisation: Chebyshev*
 
 ## Row {width="40%"}
 
@@ -68,10 +84,30 @@ Harmony plays a big role in the overall structure of a piano sonata. A Self-Simi
 
 ## Row {heigh="40%"}
 
-This is a Self-Similarity Matrices (SSM) of a performance by Brendel of the first movement of sonata no 14, based on pitch.
+This is a Self-Similarity Matrices (SSM) of a performance by Brendel of the third movement of sonata no 14, based on pitch.
 
 This piece is in c♯-minor and in sonata form, which means that the exposition get's repeated. This happens at around a 100 seconds and a (faint) blue diagonal line is visible at this point in the SSM. The entirety of the exposition is visible as a block-like structure around 215 seconds (with a yellow outline). Here the second theme sounds in f♯-minor, which is different from the exposition where it was in g♯-minor.
 
 There is not a block-like structure visible for the entirety of the development, which ends at around 265 seconds. At this point the recapitulation starts with the first subject remaining unaltered. The second subject is now in the tonic (instead of g♯-minor as in the exposition).
 
 The overall SSM has a lot of block-like structures, but these are not easy to distinguish from each other and they cannot easily be linked to what is audible in the audio. The reason for this, is that piano sonatas in sonata form are build on themes and motives that get repeated but could also get slightly altered. Thus, there is a lot of homogeneity. In addition, this piece consists mainly of fast arpeggios and listening to the piece gives the impression that everything flows together organically and there are few contrasting parts.
+
+# Tempogram
+
+![](tempogram_dft_waldstein_II_say.png) *Tempogram of Beethoven's Waldstein Sonata (No. 21), 2nd movement, Perfomance by Say. Fourier-based.*
+
+![](tempogram_act_waldstein_II_say.png) *Tempogram of Beethoven's Waldstein Sonata (No. 21), 2nd movement, Perfomance by Say. Autocorrelation based.*
+
+![](tempogram_dft_moonlight_III_say.png) *Tempogram of Beethoven's Moonlight Sonata (No. 14), 3rd movement, Perfomance by Say. Fourier-based.*
+
+## Row {heigh="40%"}
+On the right are three tempograms: two depicting the second movement of sonata no. 21 and the others are of the third movement of sonata no. 14. Both performances are by Say. I chose these two pieces because when listening to them they sound very contrasting in terms of tempo.
+
+The second movement of sonata no. 21 is a short *adagio* in 6/8 time that serves as introduction on the next movement. When listening to the piece, it is hard to figure out what the tempo is due to the many rests, especially at the beginning of the piece. This is also illustrated in the tempogram, which looks like it doesn't really know what the tempo is at any given moment. However, around 200 second some lines become visible, but these are faint and all over the place. This is also when there starts to be more activity in the piece, namely a wave like pattern of notes in the left hand (without rests). There is still ambiguity in the tempogram regarding the BPM. However, when looking at the autocorrelation based tempogram below it, there is a clear line at 200 seconds at the level of 50 BPM, which roughly correspond to the tempo of that passage.
+
+The third movement of sonata no. 14 is a very fast *presto agitato* in common time. There are three clear lines in the tempogram, all at the level of around 350 BPM, which corresponds to the percieved tempo listening to the piece. The lines appear at around 80, 160 and 310 seconds, with align with moments where the perceived tempo is particularly easy to identify by ear.
+
+The tempograms clearly illustrate the contrasting rhythmic character of the two movements. The adagio movement produces a less defined tempo representation due to its slow pace and frequent rests, whereas the presto movement shows a much clearer tempo pattern.
+
+Compare the tempo curves to the self-similarity matrices of multiple performances of the same piece (easiest for classical music).<br> 
+- im going to compare moonlight III kempff with levit to see if there are differences in the tempograms, because when listening it sounds like levit plays it faster
