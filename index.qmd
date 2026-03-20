@@ -12,7 +12,14 @@ editor: visual
 
 # Corpus description
 
-Welcome to my online portfolio for Computational Musicology. I have compiled a corpus of several recordings of Ludwig van Beethoven’s sonatas no.’s 8 (Pathétique), 14 (Moonlight) and 21 (Waldstein). These are some of the most famous piano works of Beethoven and even of Western music history. That is why these works have been interpreted many times. Thus, the recordings span from the 60s to very recent ones from 2025.
+Welcome to my online portfolio for Computational Musicology. I have compiled a corpus of several recordings of Ludwig van Beethoven’s sonatas no.’s 8 (Pathétique), 14 (Moonlight) and 21 (Waldstein). These are some of the most famous piano works of Beethoven and even of Western music history. That is why these works have been interpreted many times. Thus, the recordings span from the 60s to very recent ones from 2025.<br> 
+- explain why i chose these perfomances<br> 
+- explain what the storyboard includes, what people can expect<br> 
+- justify the choice of pieces for the various grams, possibly connect them to the next one<br> 
+- maybe make additional ones for other pianists for comparison<br> 
+- justify normalisation, distance metric<br> 
+- more graphs using spotify features<br> 
+- all grams same width, length, layout<br> 
 
 ## Row {width="40%"}
 
@@ -111,3 +118,20 @@ The tempograms clearly illustrate the contrasting rhythmic character of the two 
 
 Compare the tempo curves to the self-similarity matrices of multiple performances of the same piece (easiest for classical music).<br> 
 - im going to compare moonlight III kempff with levit to see if there are differences in the tempograms, because when listening it sounds like levit plays it faster
+
+# Clustering
+
+![](dendogram_moonlight_I.png) *Dendogram of performances of Beethoven's Moonlight Sonata (No. 14), 1st movement. Using the features energy, loudness, acousticness, valence and tempo. Distance: Manhattan, linkage: complete.*
+
+![](dendogram_moonlight_II.png) *Dendogram of performances of Beethoven's Moonlight Sonata (No. 14), 2nd movement. Using the features energy, loudness, acousticness, valence and tempo. Distance: Manhattan, linkage: complete.*
+
+![](dendogram_moonlight_III.png) *Dendogram of performances of Beethoven's Moonlight Sonata (No. 14), 3rd movement. Using the features energy, loudness, acousticness, valence and tempo. Distance: Manhattan, linkage: complete.*
+
+## Row {heigh="40%"}
+To examine how different pianists interpret the three movements of Beethoven's Moonlight Sonata (No. 14), hierarchical clustering was applied to five Spotify audio features: energy, loudness, acousticness, valence, and tempo. The other features were dropped because they don't necessarily say anything about interpretation. Separate dendrograms were constructed for each movement using complete linkage and Manhattan distance. The dendograms are visible on the left.
+
+In the second and third movements, a two-cluster structure emerges at the highest level of the hierarchy, though the split is uneven. Remarkably, in the first movement Brendel stands entirely apart from the remaining eleven pianists, forming a cluster of one. This indicates an uniquely distinctive interpretation of this movement in particular.
+
+Osborne and Korevaar show notable consistency across movements II and III. In both these movements they appear close together. However, in movement I they are quite far apart. 
+
+Beyond this, which pianists resemble each other tends to change from movement to movement. This suggests that while pianists may have a general interpretive style, how similar they sound to a specific other pianist depends on the movement being played.
